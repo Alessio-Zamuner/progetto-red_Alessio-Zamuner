@@ -34,13 +34,18 @@ h1{
     font-size: 7vmax;
     color: var(--sec);
 }
+h3{
+    color: var(--sec);
+}
 #quotes::before{
     font-size: large;
+    font-family: 'rajdhani', sans-serif;
     content: ' " ' ;
     color: var(--sec);
 }
 #quotes::after{
     font-size: large ;
+    font-family: 'rajdhani', sans-serif;
     content: ' " ' ;
     color: var(--sec);
     position: absolute;
