@@ -35,7 +35,7 @@ h1{
     color: var(--sec);
     letter-spacing: 1vw;
 }
-h3{
+h3,h2,h5,h6{
     color: var(--sec);
 }
 #quotes::before{
@@ -55,9 +55,6 @@ h3{
 .item{
     font-size: 3rem;
     color: var(--sec);
-}
-.redbar{
-    border-bottom: 10px, solid, var(--sec) ;
 }
 .bordo{
     border-bottom: 3px solid darkred;
@@ -82,4 +79,37 @@ h3{
     color: var(--main);
     border: 0;
     border-radius: 5px;
+}
+.timeline {
+    border-left: 3px solid var(--sec);
+    position: relative;
+    list-style: none;
+  }
+  
+  .timeline .timeline-item {
+    position: relative;
+  }
+  
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  
+  .timeline .timeline-item:after {
+    background-color:white;
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+    border: 1px solid var(--ter);
+  }
+  .bg-timeline{
+    background-color: white;
+}
+.bg-timeline-2{
+    background-image: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-position:bottom;
 }
