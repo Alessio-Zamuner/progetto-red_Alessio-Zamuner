@@ -28,6 +28,10 @@ body {
     color: var(--ter);
 }
 
+.navbar a:hover {
+    color: var(--sec);
+}
+
 /*  text img */
 .img-bg {
     height: 100vh;
@@ -164,6 +168,7 @@ h6 {
     height: 250px;
     border: 2px solid var(--sec);
 }
+
 /* section background with red trees */
 .img-bg-3 {
     height: 55vh;
@@ -171,4 +176,24 @@ h6 {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
+}
+
+/* footer */
+.footer {
+    height: fit-content;
+    background-color: var(--sec);
+    color: var(--main);
+}
+
+#title {
+    color: var(--main);
+}
+
+ul>li>a {
+    color: var(--main);
+    text-decoration: none;
+    transition: 0.3s;
+}
+ul>li>a:hover{
+    color: var(--ter);
 }
