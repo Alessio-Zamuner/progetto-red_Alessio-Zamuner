@@ -1,115 +1,155 @@
-*{
+* {
     font-family: 'nova square', cursive;
 }
-body{
+
+body {
     background-color: var(--main);
 }
-:root{
-    --main:#ececec;
-    --sec:rgb(139, 1, 2);
-    --ter:rgb(148, 154, 160);
+
+:root {
+    --main: #ececec;
+    --sec: rgb(139, 1, 2);
+    --ter: rgb(148, 154, 160);
 }
-.header{
+
+.header {
     height: 10vh;
     background-color: var(--main);
 
 }
-.navbar{
+
+/* navbar */
+.navbar {
     background-color: var(--main);
 
 }
- .navbar a{
-    color:var(--ter);
+
+.navbar a {
+    color: var(--ter);
 }
-.img-bg{
+
+/*  text img */
+.img-bg {
     height: 100vh;
-    background-image:url(./media/mountains2.png) , linear-gradient(0deg, rgba(0,0,0,0) 0%, var(--main) 100%) , url(./media/switzerland-862870_1920.jpg);
-    background-size: 100%, cover ,cover;
+    background-image: url(./media/mountains2.png), linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, var(--main) 100%), url(./media/switzerland-862870_1920.jpg);
+    background-size: 100%, cover, cover;
     background-repeat: no-repeat;
     background-position: bottom, center, center;
     background-color: var(--main);
 }
 
-h1{
+/* font and color*/
+h1 {
     font-size: 7vmax;
     color: var(--sec);
     letter-spacing: 1vw;
 }
-h3,h2,h5,h6{
+
+h3,
+h2,
+h5,
+h6 {
     color: var(--sec);
 }
-#quotes::before{
+.size-text{
+    font-size: 12px;
+}
+.icons-circle-card{
+    color: var(--sec);
+}
+/* quotes text under img */
+#quotes::before {
     font-size: large;
     font-family: 'rajdhani', sans-serif;
-    content: ' " ' ;
+    content: ' " ';
     color: var(--sec);
 }
-#quotes::after{
-    font-size: large ;
+
+#quotes::after {
+    font-size: large;
     font-family: 'rajdhani', sans-serif;
-    content: ' " ' ;
+    content: ' " ';
     color: var(--sec);
     position: absolute;
     bottom: 0%;
 }
-.item{
+
+/* icons */
+.item {
     font-size: 3rem;
     color: var(--sec);
 }
-.bordo{
+
+.bordo {
     border-bottom: 3px solid darkred;
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-.bi-circle{
+
+.bi-circle {
     position: absolute;
     background-color: var(--main);
 }
-.img-bg-2{
-    height:55vh;
+
+/* section button with background */
+.img-bg-2 {
+    height: 55vh;
     background-image: url(./media/trees2.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
 }
-.btn-lorem{
+
+.btn-lorem {
     background-color: var(--sec);
     color: var(--main);
     border: 0;
     border-radius: 5px;
 }
+
+/* section timeline */
 .timeline {
     border-left: 3px solid var(--sec);
     position: relative;
     list-style: none;
-  }
-  
-  .timeline .timeline-item {
+}
+
+.timeline .timeline-item {
     position: relative;
-  }
-  
-  .timeline .timeline-item:after {
+}
+
+.timeline .timeline-item:after {
     position: absolute;
     display: block;
     top: 0;
-  }
-  
-  .timeline .timeline-item:after {
-    background-color:white;
+}
+
+.timeline .timeline-item:after {
+    background-color: white;
     left: -38px;
     border-radius: 50%;
     height: 11px;
     width: 11px;
     content: "";
     border: 1px solid var(--ter);
-  }
-  .bg-timeline{
+}
+
+.bg-timeline {
     background-color: white;
 }
-.bg-timeline-2{
+
+.bg-timeline-2 {
     background-image: url(./media/single.png);
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position: bottom;
+}
+
+/* section team */
+.img-user {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid var(--sec);
 }
