@@ -70,3 +70,16 @@ h3{
     position: absolute;
     background-color: var(--main);
 }
+.img-bg-2{
+    height:55vh;
+    background-image: url(./media/trees2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.btn-lorem{
+    background-color: var(--sec);
+    color: var(--main);
+    border: 0;
+    border-radius: 5px;
+}
