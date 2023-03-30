@@ -51,12 +51,11 @@ h5,
 h6 {
     color: var(--sec);
 }
-.size-text{
+
+.size-text {
     font-size: 12px;
 }
-.icons-circle-card{
-    color: var(--sec);
-}
+
 /* quotes text under img */
 #quotes::before {
     font-size: large;
@@ -147,9 +146,21 @@ h6 {
 }
 
 /* section team */
-.img-user {
+.img-team {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    border: 2px solid var(--sec);
+}
+
+.icons-circle-card {
+    color: var(--sec);
+}
+
+/* section benefit */
+.img-benefit {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
     border: 2px solid var(--sec);
 }
