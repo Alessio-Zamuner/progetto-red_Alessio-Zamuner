@@ -33,6 +33,7 @@ body{
 h1{
     font-size: 7vmax;
     color: var(--sec);
+    letter-spacing: 1vw;
 }
 h3{
     color: var(--sec);
