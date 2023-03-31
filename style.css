@@ -110,6 +110,13 @@ h6 {
     color: var(--main);
     border: 0;
     border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-lorem:hover {
+    background-color: white;
+    color: var(--sec);
+    border: 1px solid var(--sec);
 }
 
 /* section timeline */
@@ -194,6 +201,7 @@ ul>li>a {
     text-decoration: none;
     transition: 0.3s;
 }
-ul>li>a:hover{
+
+ul>li>a:hover {
     color: var(--ter);
 }
